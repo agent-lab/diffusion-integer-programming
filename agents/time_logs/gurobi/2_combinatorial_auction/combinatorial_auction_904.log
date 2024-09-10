@@ -1,0 +1,39 @@
+
+Gurobi 9.5.2 (mac64[x86]) logging started Mon Apr  8 11:08:38 2024
+
+Set parameter LogFile to value "./GenMIP/agents/time_logs/gurobi/2_combinatorial_auction/combinatorial_auction_904.log"
+Set parameter NodeLimit to value 0
+Set parameter TimeLimit to value 3
+Set parameter Threads to value 1
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (mac64[x86])
+Thread count: 6 physical cores, 12 logical processors, using up to 1 threads
+Optimize a model with 766 rows, 1500 columns and 7458 nonzeros
+Model fingerprint: 0x32386644
+Variable types: 0 continuous, 1500 integer (1500 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [2e-02, 2e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 25106.525518
+Presolve removed 9 rows and 103 columns
+Presolve time: 0.03s
+Presolved: 757 rows, 1397 columns, 7327 nonzeros
+Found heuristic solution: objective 28113.054758
+Variable types: 0 continuous, 1397 integer (1397 binary)
+Found heuristic solution: objective 28830.603611
+
+Root relaxation: objective 3.720957e+04, 3323 iterations, 0.29 seconds (0.31 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 37209.5733    0  444 28830.6036 37209.5733  29.1%     -    0s
+
+Explored 1 nodes (3323 simplex iterations) in 0.33 seconds (0.34 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 3: 28830.6 28113.1 25106.5 
+
+Node limit reached
+Best objective 2.883060361130e+04, best bound 3.720957331020e+04, gap 29.0628%

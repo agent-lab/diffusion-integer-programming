@@ -1,0 +1,76 @@
+
+Gurobi 9.5.2 (mac64[x86]) logging started Mon Apr  8 11:09:39 2024
+
+Set parameter LogFile to value "./GenMIP/agents/time_logs/gurobi/3_capacity_facility/capacity_facility_981.log"
+Set parameter NodeLimit to value 0
+Set parameter TimeLimit to value 3
+Set parameter Threads to value 1
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (mac64[x86])
+Thread count: 6 physical cores, 12 logical processors, using up to 1 threads
+Optimize a model with 5151 rows, 5050 columns and 20100 nonzeros
+Model fingerprint: 0xe712f3ef
+Variable types: 0 continuous, 5050 integer (5050 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [7e-01, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+03]
+Found heuristic solution: objective 54930.338584
+Presolve removed 80 rows and 0 columns
+Presolve time: 0.06s
+Presolved: 5071 rows, 5050 columns, 20432 nonzeros
+Variable types: 0 continuous, 5050 integer (5050 binary)
+Found heuristic solution: objective 50344.911088
+
+Root relaxation: objective 1.165548e+04, 1741 iterations, 0.08 seconds (0.12 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 11655.4771    0  129 50344.9111 11655.4771  76.8%     -    0s
+
+Explored 1 nodes (1741 simplex iterations) in 0.16 seconds (0.21 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 2: 50344.9 54930.3 
+
+Node limit reached
+Best objective 5.034491108839e+04, best bound 1.165547711817e+04, gap 76.8487%
+
+Gurobi 9.5.2 (mac64[x86]) logging started Mon Apr  8 11:10:34 2024
+
+Set parameter LogFile to value "./GenMIP/agents/time_logs/gurobi/3_capacity_facility/capacity_facility_981.log"
+Set parameter NodeLimit to value 0
+Set parameter TimeLimit to value 3
+Set parameter Threads to value 1
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (mac64[x86])
+Thread count: 6 physical cores, 12 logical processors, using up to 1 threads
+Optimize a model with 5151 rows, 5050 columns and 20100 nonzeros
+Model fingerprint: 0xe712f3ef
+Variable types: 0 continuous, 5050 integer (5050 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 4e+02]
+  Objective range  [7e-01, 1e+03]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 2e+03]
+Found heuristic solution: objective 54930.338584
+Presolve removed 80 rows and 0 columns
+Presolve time: 0.06s
+Presolved: 5071 rows, 5050 columns, 20432 nonzeros
+Variable types: 0 continuous, 5050 integer (5050 binary)
+Found heuristic solution: objective 50344.911088
+
+Root relaxation: objective 1.165548e+04, 1741 iterations, 0.08 seconds (0.12 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 11655.4771    0  129 50344.9111 11655.4771  76.8%     -    0s
+
+Explored 1 nodes (1741 simplex iterations) in 0.16 seconds (0.21 work units)
+Thread count was 1 (of 12 available processors)
+
+Solution count 2: 50344.9 54930.3 
+
+Node limit reached
+Best objective 5.034491108839e+04, best bound 1.165547711817e+04, gap 76.8487%
